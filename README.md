@@ -1,4 +1,4 @@
-<h1 align="center"><img src="https://raw.githubusercontent.com/kcenow/Storage/master/favicon.png" width="25px" height="25px"> KC's Calculator</h1>
+<h1 align="center"><img src="https://raw.githubusercontent.com/kcenow/Calculator/main/favicon.png" width="25px" height="25px"> KC's Calculator</h1>
 <p align="center"><b><a href="#page_facing_up-description-">:page_facing_up:DESCRIPTION</a> • <a href="#milky_way-preview-">:milky_way:PREVIEW</a> • <a href="#scroll-changelog-">:scroll:CHANGELOG</a> • <a href="#copyright-copyright-">:copyright:COPYRIGHT</a></b></p>
 
 <br />
