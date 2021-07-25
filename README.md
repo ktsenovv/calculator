@@ -3,13 +3,13 @@
 
 <br />
 
-<h1>:page_facing_up: Description <a href="#-radio-hit-mistery-player" title="Go to Navigation">[↑]</a></h1>
+<h1>:page_facing_up: Description <a href="#-kcs-calculator" title="Go to Navigation">[↑]</a></h1>
 
 * Web based calculator (windows like) writen on JavaScript.
 
 <br />
 
-<h1>:milky_way: Preview <a href="#-radio-hit-mistery-player" title="Go to Navigation">[↑]</a></h1>
+<h1>:milky_way: Preview <a href="#-kcs-calculator" title="Go to Navigation">[↑]</a></h1>
 
 <h3><a href="https://kcenow.com/lab/calculator/" target="_blank">• Live Preview •</a></h3>
 
@@ -18,7 +18,7 @@
 
 <br />
 
-<h1>:scroll: Changelog <a href="#-radio-hit-mistery-player" title="Go to Navigation">[↑]</a></h1>
+<h1>:scroll: Changelog <a href="#-kcs-calculator" title="Go to Navigation">[↑]</a></h1>
 
 ```
 v1.0: First Release.
@@ -26,6 +26,6 @@ v1.0: First Release.
 
 <br />
 
-<h1>:copyright: Copyright <a href="#-kcs-storage" title="Go to Navigation">[↑]</a></h1>
+<h1>:copyright: Copyright <a href="#-kcs-calculator" title="Go to Navigation">[↑]</a></h1>
 © KC &#128640; Kristian Cenow. All rights reserved. KC® Logo and all related elements are trademarks of and © Kristian Cenow.<br />
 This application is not affiliated with Windows® or © Microsoft Corporation. Calculator® and all related elements are trademarks of and © Microsoft Corporation. 
