@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- TITLE -->
+		<title>Calculator</title>
+		<!-- META -->
+		<meta charset="UTF-8" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!-- ICON -->
+		<link rel="icon" type="image/x-icon" href="../../resources/favicon.png" />
+		<link rel="shortcut icon" type="image/x-icon" href="../../resources/favicon.png" />
+		<!-- STYLE -->
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">Calculator v1.0b [Made with &#128153; by <a href="https://kcenow.com/" target="_blank">KC &#128640; Kristian Cenow</a>]</div>
+			<div id="info"></div>
+			<div id="display">0</div>
+			<div id="buttons">
+				<input id="operators" type="button" value="%" onclick="operations('percent');">
+				<input id="operators" type="button" value="CE" onclick="operations('cleanE');">
+				<input id="operators" type="button" value="C" onclick="operations('clean');">
+				<input id="operators" type="button" value="&#9003;" onclick="operations('undo');">
+				<input id="operators" type="button" value="&#185;&#8725;&#8339;" onclick="operations('divideByOne');">
+				<input id="operators" type="button" value="x&#178;" onclick="operations('pow');">
+				<input id="operators" type="button" value="&radic;" onclick="operations('sqr');">
+				<input id="operators" type="button" value="&#247;" onclick="operations('selectSign', 4);">
+				<input type="button" value="7" onclick="operations('input', this.value);">
+				<input type="button" value="8" onclick="operations('input', this.value);">
+				<input type="button" value="9" onclick="operations('input', this.value);">
+				<input id="operators" type="button" value="&#215;" onclick="operations('selectSign', 3);">
+				<input type="button" value="4" onclick="operations('input', this.value);">
+				<input type="button" value="5" onclick="operations('input', this.value);">
+				<input type="button" value="6" onclick="operations('input', this.value);">
+				<input id="operators" type="button" value="&#8722;" onclick="operations('selectSign', 2);">
+				<input type="button" value="1" onclick="operations('input', this.value);">
+				<input type="button" value="2" onclick="operations('input', this.value);">
+				<input type="button" value="3" onclick="operations('input', this.value);">
+				<input id="operators" type="button" value="&#43;" onclick="operations('selectSign', 1);">
+				<input type="button" value="&#8723;" onclick="operations('changeSign');">
+				<input type="button" value="0" onclick="operations('input', this.value);">
+				<input type="button" value="." onclick="operations('point');">
+				<input id="calculate" type="button" value="=" onclick="operations('calculate');">
+			</div>
+		</div>
+		<!-- SCRIPT -->
+		<script type="text/javascript" src="operations.js"></script>
+		<script type="text/javascript" src="decimal.js"></script>
+	</body>
+</html>

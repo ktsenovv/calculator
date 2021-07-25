@@ -1,0 +1,186 @@
+/*=================================================================================
+ [Reset]
+=================================================================================*/
+
+html, body, address, blockquote, div, dl, form, h1, h2, h3, h4, h5, h6, ol, p, pre, table, ul,
+dd, dt, li, tbody, td, tfoot, th, thead, tr, button, del, ins, map, object,
+a, abbr, acronym, b, bdo, big, br, cite, code, dfn, em, i, img, kbd, q, samp, small, span,
+strong, sub, sup, tt, var, legend, fieldset {
+	margin: 0;
+	padding: 0;
+}
+
+img, fieldset {
+	border: 0;
+}
+
+/* set image max width to 100% */
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
+}
+
+/* set html5 elements to block */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+	display: block;
+}
+
+/* reset webkit search input styles */
+input {
+	-webkit-appearance: none;
+	outline: none;
+}
+
+input::-webkit-search-decoration, 
+input::-webkit-search-cancel-button {
+	display: none;
+}
+
+/*===============================================================================*/
+
+/*=================================================================================
+ [General]
+=================================================================================*/
+
+html {
+	overflow: auto;
+}
+
+body {
+	background-color: #CCC;
+	font-family: Segoe UI;
+}
+
+a {
+	color: #1ac8ff;
+	outline: none;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #e417ff;
+}
+
+
+/*===============================================================================*/
+
+/*=================================================================================
+ [Calculator]
+=================================================================================*/
+
+#container {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	min-width: 400px;
+	max-width: 400px;
+	max-height: 700px;
+	display: flex;
+	flex-direction: column;
+	background: #e7e7e7;
+	border: 1px #000 solid;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	-khtml-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#header {
+	font-size: 0.8em;
+	padding-left: 10px;
+	padding-top: 10px;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-o-user-select: none;
+}
+
+#info {
+	color: #5d5d5d;
+	text-align: right;
+	height: 30px;
+	font-size: 1em;
+	padding-right: 10px;
+}
+
+#display {
+	text-align: right;
+	height: 150px;
+	max-width: 100%;
+	font-size: 3em;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+	-ms-word-break: break-all;
+	word-break: break-all;
+	word-break: break-word;
+	margin-top: -10px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#buttons {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	justify-content: space-between;
+	margin: 3px;
+}
+
+
+
+input[type=button] {
+	background: #fafafa;
+	border: 1px #fafafa solid;
+	margin: 1px;
+	padding: 15px 0 15px;
+	text-align: center;
+	font-size: 1.5em;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-o-user-select: none;
+}
+
+input[type=button]:hover {
+	background: #e1e1e1;
+	border: 1px #d2d2d2 solid;
+}
+
+input[type=button]:active {
+	background: #cccccc;
+}
+
+#operators {
+	background: #f0f0f0;
+	border: 1px #f0f0f0 solid;
+}
+
+#operators:hover {
+	background: #e1e1e1;
+	border: 1px #d2d2d2 solid;
+}
+
+#operators:active {
+	background: #cccccc;
+}
+
+#calculate {
+	background: #91c1e7;
+	border: 1px #91c1e7 solid;
+}
+
+#calculate:hover {
+	background: #4599db;
+	border: 1px #408cc8 solid;
+}
+
+#calculate:active {
+	background: #0078d7;
+}
+
+/*===============================================================================*/
