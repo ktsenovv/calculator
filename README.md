@@ -7,6 +7,8 @@
 
 * Web based calculator (Windows like) writen on JavaScript.
 
+* This application uses Michael M's <a href="https://github.com/MikeMcl/decimal.js">decimal.js</a> for more accurate calculations of floating point numbers.
+
 <br />
 
 <h1>:milky_way: Preview <a href="#-kcs-calculator" title="Go to Navigation">[↑]</a></h1>
