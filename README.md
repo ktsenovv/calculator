@@ -21,7 +21,7 @@
 <h1>:scroll: Changelog <a href="#-kcs-calculator" title="Go to Navigation">[↑]</a></h1>
 
 ```
-v1.0: First Release.
+v1.0b: First Release.
 ```
 
 <br />
