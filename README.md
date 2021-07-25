@@ -5,7 +5,7 @@
 
 <h1>:page_facing_up: Description <a href="#-kcs-calculator" title="Go to Navigation">[↑]</a></h1>
 
-* Web based calculator (windows like) writen on JavaScript.
+* Web based calculator (Windows like) writen on JavaScript.
 
 <br />
 
