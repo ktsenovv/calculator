@@ -16,7 +16,7 @@
 <h3><a href="https://kcenow.com/lab/calculator/" target="_blank">• Live Preview •</a></h3>
 
 <h4><img src="https://raw.githubusercontent.com/kcenow/Calculator/main/Preview/Preview.jpg"><br />
-(Picture #1)</h4>
+(Picture)</h4>
 
 <br />
 
