@@ -29,4 +29,4 @@ v1.0b: First Release.
 <br />
 
 <h1>:copyright: Copyright <a href="#-kcs-calculator" title="Go to Navigation">[↑]</a></h1>
-© Kristian Cenow &#128640; KC. All rights reserved. KC® Logo and all related elements are trademarks of and © Kristian Cenow. This application is not affiliated with Windows® or © Microsoft Corporation. Calculator® and all related elements are trademarks of and © Microsoft Corporation.
+© Kristian Tsenov. All rights reserved. K® Logo and all related elements are trademarks of and © Kristian Tsenov. This application is not affiliated with Windows® or © Microsoft Corporation. Calculator® and all related elements are trademarks of and © Microsoft Corporation.
